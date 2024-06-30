@@ -3,7 +3,7 @@ export default function Hero() {
     <div
       className="w-full h-full pb-6 pl-5 pr-5 text-white"
       style={{
-        backgroundImage: "url('/src/assets/article-image-hero.png')",
+        backgroundImage: "url('/article-image-hero.png')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
