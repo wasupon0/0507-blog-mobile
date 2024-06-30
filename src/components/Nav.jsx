@@ -9,7 +9,7 @@ export default function Nav({ clickBack }) {
       </div>
       <ul className="flex gap-10 font-medium">
         <li className="uppercase cursor-pointer hover:underline">
-          <a href="/index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="uppercase cursor-pointer hover:underline">
           <a href="/about/">ABOUT ME</a>
