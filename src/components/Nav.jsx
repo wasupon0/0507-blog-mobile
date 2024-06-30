@@ -12,7 +12,7 @@ export default function Nav({ clickBack }) {
           <a href="/index.html">Home</a>
         </li>
         <li className="uppercase cursor-pointer hover:underline">
-          <a href="/about.html">ABOUT ME</a>
+          <a href="/about/">ABOUT ME</a>
         </li>
       </ul>
     </nav>
