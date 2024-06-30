@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <>
-      <Nav />
+      <Nav clickBack={clickBack} />
       {isDetailBlog ? (
         <>
           {currentBlog.id !== 0 && (

@@ -40,8 +40,8 @@ export default function Blog({ clickBlog }) {
   }
 
   return isBlogMobile ? (
-    <>
-      {blogMobile}
+    <div className="sm:max-w-[500px] max-w-[400px]  md:max-w-[1000px] ml-auto mr-auto">
+      <div className="ml-auto mr-auto md:flex">{blogMobile}</div>
 
       <p
         onClick={clickViewMore}
@@ -49,16 +49,16 @@ export default function Blog({ clickBlog }) {
       >
         view more
       </p>
-    </>
+    </div>
   ) : (
-    <>
-      {blogElement}
+    <div className="sm:max-w-[500px] max-w-[400px]  md:max-w-[1000px] ml-auto mr-auto">
+      <div className="grid-cols-3 ml-auto mr-auto md:grid">{blogElement}</div>
       <p
         onClick={clickViewMore}
         className="mb-10 text-lg font-bold text-center capitalize cursor-pointer hover:underline"
       >
         hide
       </p>
-    </>
+    </div>
   );
 }

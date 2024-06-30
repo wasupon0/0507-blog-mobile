@@ -1,6 +1,6 @@
 import logo from "/logo.svg";
 
-export default function Nav() {
+export default function Nav({ clickBack }) {
   return (
     <nav className="flex justify-between p-5">
       <div className="flex">
@@ -8,8 +8,13 @@ export default function Nav() {
         <h1 className="font-bold font-['Roboto']">My learning journal</h1>
       </div>
       <ul className="flex gap-10 font-medium">
-        <li className="uppercase">Home</li>
-        <li className="uppercase">ABOUT ME</li>
+        <li
+          onClick={clickBack}
+          className="uppercase cursor-pointer hover:underline"
+        >
+          Home
+        </li>
+        {/* <li className="uppercase">ABOUT ME</li> */}
       </ul>
     </nav>
   );

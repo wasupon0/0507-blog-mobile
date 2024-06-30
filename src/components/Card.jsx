@@ -1,9 +1,9 @@
 export default function Card({ image, date, title, content, clickBlog }) {
   return (
-    <div className="flex flex-col px-5 py-8 ">
+    <div className="flex flex-col px-5 py-8">
       <img
         onClick={clickBlog}
-        className="cursor-pointer rounded-3xl hover:opacity-95"
+        className="h-[200px] object-cover cursor-pointer rounded-3xl hover:opacity-95"
         src={image}
         alt=""
       />
