@@ -8,13 +8,12 @@ export default function Nav({ clickBack }) {
         <h1 className="font-bold font-['Roboto']">My learning journal</h1>
       </div>
       <ul className="flex gap-10 font-medium">
-        <li
-          onClick={clickBack}
-          className="uppercase cursor-pointer hover:underline"
-        >
-          Home
+        <li className="uppercase cursor-pointer hover:underline">
+          <a href="/index.html">Home</a>
         </li>
-        {/* <li className="uppercase">ABOUT ME</li> */}
+        <li className="uppercase cursor-pointer hover:underline">
+          <a href="/about.html">ABOUT ME</a>
+        </li>
       </ul>
     </nav>
   );
