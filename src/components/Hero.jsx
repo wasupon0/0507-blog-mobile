@@ -1,5 +1,3 @@
-import heroImage from "../assets/article-image-hero.png";
-
 export default function Hero() {
   return (
     <div
