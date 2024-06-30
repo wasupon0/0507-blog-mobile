@@ -1,3 +1,4 @@
+import Blog from "./components/Blog";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 
@@ -6,6 +7,7 @@ export default function App() {
     <>
       <Nav />
       <Hero />
+      <Blog />
     </>
   );
 }
